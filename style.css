@@ -1,0 +1,122 @@
+/* selector {
+    property: value;
+}*/
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: large;
+    color: blue;
+}
+
+.img2 {
+    border: 7px  solid lightgreen ;
+    padding: 4px;
+    display: block;  /* it makes an element behave like a block level element*/
+    margin: 0 auto;
+}
+#chero {
+    background-color: grey;
+    color: bisque;
+    padding: 5px;
+    
+}
+input {
+    background-color: lightgreen;
+    border: none;  
+    margin-top: 5px;
+}
+button {
+    background-color: lightgreen;
+    border: none;  
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+    border-radius: 5px;
+    transition: all 200ms ease;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+textarea {
+    background-color: lightgreen;
+    border: none;  
+    margin-top: 5px;
+    color: gray;
+    transition: all 200ms ease;
+}
+select {
+    background-color: lightgreen;
+    border: none;  
+    margin-top: 5px;
+    color: gray;
+    transition: all 200ms ease;
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: gray;
+    transition: all 200ms ease;
+}
+select:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: gray;
+    transition: all 200ms ease;
+}
+textarea:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: gray;
+    transition: all 200ms ease;
+}
+input:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+input[type="text"] {
+    padding: 4px 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: lightgreen;
+    color: gray;
+    transition: all 200ms ease;
+    padding: 4px 0;
+    text-align: center;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: lightgreen;
+}
+input[type="radio"] {
+    margin: 10px;
+}
+input[type="checkbox"] {
+    margin: 10px;
+}
+input[type="text"]:focus {
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+table {
+    border-collapse: collapse;
+    background-color: gray;
+    color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border: 4px solid lightgreen;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 2px solid lightgreen;
+    color: bisque;
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: rgb(70, 66, 66);
+}
